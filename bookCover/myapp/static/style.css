@@ -1,0 +1,79 @@
+* {
+   padding: 0;
+   margin: 0;
+   color: white;
+}
+
+.image-container {
+   margin: 10px 0px;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   z-index: 2;
+}
+
+.image {
+   height: 96vh;
+   width: 41rem;
+}
+
+.body-book {
+   position: absolute;
+   top: 1rem;
+   /* border:solid 1px red; */
+   left:28rem;
+   height: 700px;
+   width: 41%;
+}
+.body-book h1{
+   color: rgb(251, 219, 197);
+   margin-left: 20px;
+}
+.body-book .line{
+   height: 2px;
+   background-color: rgb(181, 181, 255);
+   width: 280px;
+}
+.book-title{
+   margin-left: 155px;
+   font-size: 70px;
+   color: rgb(223, 223, 210);
+}
+.Travel{
+   font-size: 90px;
+}
+.body-book .content{
+   margin-top: 30px;
+   color: rgb(223, 223, 210);
+   font-size: 30px;
+}
+.design-image{
+   display: block;
+   height: 200px;
+   opacity: 0.7;
+}
+.line1{
+   position: relative;
+   bottom: 5px;
+   margin-left: 55px;
+   height: 3px;
+   background-color: rgb(181, 181, 255);
+   width: 89px; 
+}
+.book-edition{
+   margin-top: 40px;
+   color: rgb(255, 72, 72);
+   font-size: 30px;
+}
+.line2{
+   height: 2px;
+   background-color: rgb(255, 72, 72);
+   margin: 10px 0px;
+   width: 100%;
+}
+.name-container{
+   margin: 0px 20px;
+   font-size: 28px;
+   display: flex;
+   justify-content: space-between;
+}
